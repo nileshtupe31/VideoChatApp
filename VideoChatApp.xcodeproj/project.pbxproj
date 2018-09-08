@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D37589921439F3F008F5444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37589821439F3F008F5444 /* AppDelegate.swift */; };
+		0D37589B21439F3F008F5444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37589A21439F3F008F5444 /* ViewController.swift */; };
+		0D37589E21439F3F008F5444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D37589C21439F3F008F5444 /* Main.storyboard */; };
+		0D3758A021439F41008F5444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D37589F21439F41008F5444 /* Assets.xcassets */; };
+		0D3758A321439F41008F5444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3758A121439F41008F5444 /* LaunchScreen.storyboard */; };
+		0D3758AE21439F41008F5444 /* VideoChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3758AD21439F41008F5444 /* VideoChatAppTests.swift */; };
+		0D3758B921439F41008F5444 /* VideoChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3758B821439F41008F5444 /* VideoChatAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D3758AA21439F41008F5444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D37588D21439F3F008F5444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D37589421439F3F008F5444;
+			remoteInfo = VideoChatApp;
+		};
+		0D3758B521439F41008F5444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D37588D21439F3F008F5444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D37589421439F3F008F5444;
+			remoteInfo = VideoChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D37589521439F3F008F5444 /* VideoChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D37589821439F3F008F5444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D37589A21439F3F008F5444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D37589D21439F3F008F5444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D37589F21439F41008F5444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D3758A221439F41008F5444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D3758A421439F41008F5444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3758A921439F41008F5444 /* VideoChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3758AD21439F41008F5444 /* VideoChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatAppTests.swift; sourceTree = "<group>"; };
+		0D3758AF21439F41008F5444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3758B421439F41008F5444 /* VideoChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3758B821439F41008F5444 /* VideoChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatAppUITests.swift; sourceTree = "<group>"; };
+		0D3758BA21439F41008F5444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D37589221439F3F008F5444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3758A621439F41008F5444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3758B121439F41008F5444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D37588C21439F3F008F5444 = {
+			isa = PBXGroup;
+			children = (
+				0D37589721439F3F008F5444 /* VideoChatApp */,
+				0D3758AC21439F41008F5444 /* VideoChatAppTests */,
+				0D3758B721439F41008F5444 /* VideoChatAppUITests */,
+				0D37589621439F3F008F5444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D37589621439F3F008F5444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D37589521439F3F008F5444 /* VideoChatApp.app */,
+				0D3758A921439F41008F5444 /* VideoChatAppTests.xctest */,
+				0D3758B421439F41008F5444 /* VideoChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D37589721439F3F008F5444 /* VideoChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				0D37589821439F3F008F5444 /* AppDelegate.swift */,
+				0D37589A21439F3F008F5444 /* ViewController.swift */,
+				0D37589C21439F3F008F5444 /* Main.storyboard */,
+				0D37589F21439F41008F5444 /* Assets.xcassets */,
+				0D3758A121439F41008F5444 /* LaunchScreen.storyboard */,
+				0D3758A421439F41008F5444 /* Info.plist */,
+			);
+			path = VideoChatApp;
+			sourceTree = "<group>";
+		};
+		0D3758AC21439F41008F5444 /* VideoChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3758AD21439F41008F5444 /* VideoChatAppTests.swift */,
+				0D3758AF21439F41008F5444 /* Info.plist */,
+			);
+			path = VideoChatAppTests;
+			sourceTree = "<group>";
+		};
+		0D3758B721439F41008F5444 /* VideoChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3758B821439F41008F5444 /* VideoChatAppUITests.swift */,
+				0D3758BA21439F41008F5444 /* Info.plist */,
+			);
+			path = VideoChatAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D37589421439F3F008F5444 /* VideoChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3758BD21439F41008F5444 /* Build configuration list for PBXNativeTarget "VideoChatApp" */;
+			buildPhases = (
+				0D37589121439F3F008F5444 /* Sources */,
+				0D37589221439F3F008F5444 /* Frameworks */,
+				0D37589321439F3F008F5444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoChatApp;
+			productName = VideoChatApp;
+			productReference = 0D37589521439F3F008F5444 /* VideoChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D3758A821439F41008F5444 /* VideoChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3758C021439F41008F5444 /* Build configuration list for PBXNativeTarget "VideoChatAppTests" */;
+			buildPhases = (
+				0D3758A521439F41008F5444 /* Sources */,
+				0D3758A621439F41008F5444 /* Frameworks */,
+				0D3758A721439F41008F5444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3758AB21439F41008F5444 /* PBXTargetDependency */,
+			);
+			name = VideoChatAppTests;
+			productName = VideoChatAppTests;
+			productReference = 0D3758A921439F41008F5444 /* VideoChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D3758B321439F41008F5444 /* VideoChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3758C321439F41008F5444 /* Build configuration list for PBXNativeTarget "VideoChatAppUITests" */;
+			buildPhases = (
+				0D3758B021439F41008F5444 /* Sources */,
+				0D3758B121439F41008F5444 /* Frameworks */,
+				0D3758B221439F41008F5444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3758B621439F41008F5444 /* PBXTargetDependency */,
+			);
+			name = VideoChatAppUITests;
+			productName = VideoChatAppUITests;
+			productReference = 0D3758B421439F41008F5444 /* VideoChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D37588D21439F3F008F5444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Nilesh;
+				TargetAttributes = {
+					0D37589421439F3F008F5444 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0D3758A821439F41008F5444 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0D37589421439F3F008F5444;
+					};
+					0D3758B321439F41008F5444 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0D37589421439F3F008F5444;
+					};
+				};
+			};
+			buildConfigurationList = 0D37589021439F3F008F5444 /* Build configuration list for PBXProject "VideoChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D37588C21439F3F008F5444;
+			productRefGroup = 0D37589621439F3F008F5444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D37589421439F3F008F5444 /* VideoChatApp */,
+				0D3758A821439F41008F5444 /* VideoChatAppTests */,
+				0D3758B321439F41008F5444 /* VideoChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D37589321439F3F008F5444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3758A321439F41008F5444 /* LaunchScreen.storyboard in Resources */,
+				0D3758A021439F41008F5444 /* Assets.xcassets in Resources */,
+				0D37589E21439F3F008F5444 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3758A721439F41008F5444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3758B221439F41008F5444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D37589121439F3F008F5444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D37589B21439F3F008F5444 /* ViewController.swift in Sources */,
+				0D37589921439F3F008F5444 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3758A521439F41008F5444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3758AE21439F41008F5444 /* VideoChatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3758B021439F41008F5444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3758B921439F41008F5444 /* VideoChatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D3758AB21439F41008F5444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D37589421439F3F008F5444 /* VideoChatApp */;
+			targetProxy = 0D3758AA21439F41008F5444 /* PBXContainerItemProxy */;
+		};
+		0D3758B621439F41008F5444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D37589421439F3F008F5444 /* VideoChatApp */;
+			targetProxy = 0D3758B521439F41008F5444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D37589C21439F3F008F5444 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D37589D21439F3F008F5444 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D3758A121439F41008F5444 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D3758A221439F41008F5444 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D3758BB21439F41008F5444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D3758BC21439F41008F5444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D3758BE21439F41008F5444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSB7ZJHAH9;
+				INFOPLIST_FILE = VideoChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VideoChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D3758BF21439F41008F5444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSB7ZJHAH9;
+				INFOPLIST_FILE = VideoChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VideoChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D3758C121439F41008F5444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSB7ZJHAH9;
+				INFOPLIST_FILE = VideoChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VideoChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoChatApp.app/VideoChatApp";
+			};
+			name = Debug;
+		};
+		0D3758C221439F41008F5444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSB7ZJHAH9;
+				INFOPLIST_FILE = VideoChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VideoChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoChatApp.app/VideoChatApp";
+			};
+			name = Release;
+		};
+		0D3758C421439F41008F5444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSB7ZJHAH9;
+				INFOPLIST_FILE = VideoChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VideoChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoChatApp;
+			};
+			name = Debug;
+		};
+		0D3758C521439F41008F5444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSB7ZJHAH9;
+				INFOPLIST_FILE = VideoChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.VideoChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoChatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D37589021439F3F008F5444 /* Build configuration list for PBXProject "VideoChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3758BB21439F41008F5444 /* Debug */,
+				0D3758BC21439F41008F5444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3758BD21439F41008F5444 /* Build configuration list for PBXNativeTarget "VideoChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3758BE21439F41008F5444 /* Debug */,
+				0D3758BF21439F41008F5444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3758C021439F41008F5444 /* Build configuration list for PBXNativeTarget "VideoChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3758C121439F41008F5444 /* Debug */,
+				0D3758C221439F41008F5444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3758C321439F41008F5444 /* Build configuration list for PBXNativeTarget "VideoChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3758C421439F41008F5444 /* Debug */,
+				0D3758C521439F41008F5444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D37588D21439F3F008F5444 /* Project object */;
+}
