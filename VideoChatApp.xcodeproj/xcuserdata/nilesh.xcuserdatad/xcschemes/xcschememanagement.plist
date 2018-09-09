@@ -7,7 +7,25 @@
 		<key>VideoChatApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0D37589421439F3F008F5444</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0D3758A821439F41008F5444</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0D3758B321439F41008F5444</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

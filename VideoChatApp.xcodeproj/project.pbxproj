@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D12A34D21457E7D00A740E5 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12A34C21457E7D00A740E5 /* ChatTableViewCell.swift */; };
+		0D1DB7ED2143D67800152600 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DB7EC2143D67800152600 /* SocketIOManager.swift */; };
 		0D37589921439F3F008F5444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37589821439F3F008F5444 /* AppDelegate.swift */; };
 		0D37589B21439F3F008F5444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37589A21439F3F008F5444 /* ViewController.swift */; };
 		0D37589E21439F3F008F5444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D37589C21439F3F008F5444 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		0D3758A321439F41008F5444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3758A121439F41008F5444 /* LaunchScreen.storyboard */; };
 		0D3758AE21439F41008F5444 /* VideoChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3758AD21439F41008F5444 /* VideoChatAppTests.swift */; };
 		0D3758B921439F41008F5444 /* VideoChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3758B821439F41008F5444 /* VideoChatAppUITests.swift */; };
+		0D3758C72143A09F008F5444 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0D3758C62143A09F008F5444 /* Podfile */; };
+		0DA43DFB21441076008DAF15 /* NickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA43DFA21441076008DAF15 /* NickNameViewController.swift */; };
+		0DA43DFD21441135008DAF15 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA43DFC21441135008DAF15 /* ChatViewController.swift */; };
+		3EFBBA4386BDF4DBE99FC9CD /* Pods_VideoChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301E3C135EF8D2F9E15BD19F /* Pods_VideoChatApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D12A34C21457E7D00A740E5 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		0D1DB7EC2143D67800152600 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 		0D37589521439F3F008F5444 /* VideoChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D37589821439F3F008F5444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D37589A21439F3F008F5444 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		0D3758B421439F41008F5444 /* VideoChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3758B821439F41008F5444 /* VideoChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatAppUITests.swift; sourceTree = "<group>"; };
 		0D3758BA21439F41008F5444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3758C62143A09F008F5444 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0DA43DFA21441076008DAF15 /* NickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameViewController.swift; sourceTree = "<group>"; };
+		0DA43DFC21441135008DAF15 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		21C4731830847FC3C86D2E78 /* Pods-VideoChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoChatApp/Pods-VideoChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		301E3C135EF8D2F9E15BD19F /* Pods_VideoChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5420C2541ADD03E9C8FE5E81 /* Pods-VideoChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoChatApp/Pods-VideoChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFBBA4386BDF4DBE99FC9CD /* Pods_VideoChatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D12A34B21457E5900A740E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D12A34C21457E7D00A740E5 /* ChatTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D1DB7EB2143D66000152600 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D1DB7EC2143D67800152600 /* SocketIOManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0D37588C21439F3F008F5444 = {
 			isa = PBXGroup;
 			children = (
+				0D3758C62143A09F008F5444 /* Podfile */,
 				0D37589721439F3F008F5444 /* VideoChatApp */,
 				0D3758AC21439F41008F5444 /* VideoChatAppTests */,
 				0D3758B721439F41008F5444 /* VideoChatAppUITests */,
 				0D37589621439F3F008F5444 /* Products */,
+				AEEFBDD9797EC5FC38BD8071 /* Pods */,
+				B46D9B420C48EF7C4DF10B74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +131,9 @@
 		0D37589721439F3F008F5444 /* VideoChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				0D12A34B21457E5900A740E5 /* Views */,
+				0DA43DF921440FE5008DAF15 /* Viewcontroller */,
+				0D1DB7EB2143D66000152600 /* Helpers */,
 				0D37589821439F3F008F5444 /* AppDelegate.swift */,
 				0D37589A21439F3F008F5444 /* ViewController.swift */,
 				0D37589C21439F3F008F5444 /* Main.storyboard */,
@@ -125,6 +162,32 @@
 			path = VideoChatAppUITests;
 			sourceTree = "<group>";
 		};
+		0DA43DF921440FE5008DAF15 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				0DA43DFA21441076008DAF15 /* NickNameViewController.swift */,
+				0DA43DFC21441135008DAF15 /* ChatViewController.swift */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		AEEFBDD9797EC5FC38BD8071 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21C4731830847FC3C86D2E78 /* Pods-VideoChatApp.debug.xcconfig */,
+				5420C2541ADD03E9C8FE5E81 /* Pods-VideoChatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B46D9B420C48EF7C4DF10B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301E3C135EF8D2F9E15BD19F /* Pods_VideoChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D3758BD21439F41008F5444 /* Build configuration list for PBXNativeTarget "VideoChatApp" */;
 			buildPhases = (
+				12C808FFEB79D4431E2B0091 /* [CP] Check Pods Manifest.lock */,
 				0D37589121439F3F008F5444 /* Sources */,
 				0D37589221439F3F008F5444 /* Frameworks */,
 				0D37589321439F3F008F5444 /* Resources */,
+				76237EBACF6B59A96441CD1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +296,7 @@
 			files = (
 				0D3758A321439F41008F5444 /* LaunchScreen.storyboard in Resources */,
 				0D3758A021439F41008F5444 /* Assets.xcassets in Resources */,
+				0D3758C72143A09F008F5444 /* Podfile in Resources */,
 				0D37589E21439F3F008F5444 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +317,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12C808FFEB79D4431E2B0091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76237EBACF6B59A96441CD1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VideoChatApp/Pods-VideoChatApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoChatApp/Pods-VideoChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D37589121439F3F008F5444 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA43DFB21441076008DAF15 /* NickNameViewController.swift in Sources */,
 				0D37589B21439F3F008F5444 /* ViewController.swift in Sources */,
+				0D1DB7ED2143D67800152600 /* SocketIOManager.swift in Sources */,
+				0D12A34D21457E7D00A740E5 /* ChatTableViewCell.swift in Sources */,
+				0DA43DFD21441135008DAF15 /* ChatViewController.swift in Sources */,
 				0D37589921439F3F008F5444 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +539,7 @@
 		};
 		0D3758BE21439F41008F5444 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C4731830847FC3C86D2E78 /* Pods-VideoChatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +558,7 @@
 		};
 		0D3758BF21439F41008F5444 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5420C2541ADD03E9C8FE5E81 /* Pods-VideoChatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
